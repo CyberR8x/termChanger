@@ -90,9 +90,14 @@ sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting
 
 #Insert repositories
 clear
-echo -e "${yellowColour}[*]${defaultColour} Adding repositories"; sleep 1
-echo "deb http://deb.debian.org/debian stable main" >> /etc/apt/sources.list
 
+read -p "Do you want to add an alternative repository for apt (y/n): " alternative
+
+if [[ $alternative == 'y' || $alternative == 'Y' ]]
+then
+  echo -e "${yellowColour}[*]${defaultColour} Adding repositories"; sleep 1
+  echo "deb http://deb.debian.org/debian stable main" >> /etc/apt/sources.list
+fi
 
 #Modify cat
 echo "alias cat='batcat'" >> .zshrc
