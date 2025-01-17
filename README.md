@@ -1,0 +1,2 @@
+# termChanger
+Automatic terminal personalization
