@@ -24,7 +24,7 @@ function check_dependencies(){
 	echo -e "${yellowColour}[*]${defaultColour} Updating repositories..."
 	sleep 1
 	apt update -y > /dev/null 2>&1
-	programs_to_use=(curl git zsh bat neovim lsd)
+	programs_to_use=(curl git zsh bat vim)
 
 
 	clear
@@ -101,7 +101,6 @@ fi
 
 #Modify cat
 echo "alias cat='batcat'" >> .zshrc
-echo "alias ls='lsd'" >> .zshrc
 
 #Creating directory for nvim config
 clear
