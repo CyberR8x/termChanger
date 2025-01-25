@@ -4,7 +4,8 @@
 This Script automates the injection of plugins in the terminal changing the default and boring bash to a new customizable zsh with colors and autocomplete helpers among other things
 
 <br><br>
-This Script has been tested and works perfectly in: <br>
+<b>This Script has been tested and works perfectly in: </b>
+<br>
 <ol>
   <li>Kali Linux</li>
   <li>Debian</li>
