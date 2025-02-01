@@ -10,6 +10,9 @@ This Script automates the injection of plugins in the terminal changing the defa
   <li>Kali Linux</li>
   <li>Debian</li>
   <li>Ubuntu </li>
+  <li>Zorin OS 17.2</li>
+  <li>Zentynal Server</li>
+  <li>Linux Mint</li>
 
 </ol>
 
