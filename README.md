@@ -13,13 +13,13 @@ This Script automates the injection of plugins in the terminal changing the defa
   <li>Zorin OS 17.2</li>
   <li>Zentynal Server</li>
   <li>Linux Mint</li>
+  <li>Zentyal</li>
 
 </ol>
 
 <br><br>
 <b><p style="color: blue;">In the following OS, you'll need to install batcat manually. If you don't want it, comment out the line in the .zshrc  file:</p></b>
 <ol>
-  <li>Linux mint</li>
   <li>Raspbian</li>
   
 </ol>
